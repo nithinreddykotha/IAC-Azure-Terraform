@@ -29,5 +29,3 @@ Designed as the first step in a larger **Cloud, Data, and AI portfolio**, this i
 - **Azure Storage Account**
 - **GitHub (CI/CD in future phases)**
 
-## 📁 Folder Structure
-
