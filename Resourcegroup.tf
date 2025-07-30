@@ -17,7 +17,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "Nithin-Azure-test"
+  name     = "Nithin-Azure-Shared-rg"
   location = "East US 2"
 
 }
