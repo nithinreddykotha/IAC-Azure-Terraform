@@ -1,4 +1,4 @@
-# 🌐 Azure Infrastructure with Terraform
+# 🌐 Azure Infrastructure as with Terraform
 
 This project provisions a production-grade, modular Azure infrastructure using Terraform. It serves as the **foundational layer** for building data engineering, AI, and cloud-native workloads.
 
