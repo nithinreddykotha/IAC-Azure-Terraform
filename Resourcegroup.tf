@@ -1,23 +1,7 @@
 # We strongly recommend using the required_providers block to set the
 # Azure Provider source and version being used
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "=4.37.0"
-    }
-  }
-}
-
-# Configure the Microsoft Azure Provider
-provider "azurerm" {
-  features {}
-
-  subscription_id = "51a8a6b8-2ff1-4151-82ff-6a900f56c431"
-}
-
 resource "azurerm_resource_group" "example" {
   name     = "Nithin-Azure-Shared-rg"
-  location = "East US 2"
+  location = "centralus"
 
 }
